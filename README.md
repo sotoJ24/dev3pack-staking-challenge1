@@ -35,7 +35,7 @@ Before you begin, you need to install the following tools:
 
 🎛 Building the frontend to display the information and UI is just as important as writing the contract. The goal is to deploy the contract and the app to allow anyone to stake using your app. Use a `Stake(address, uint256)` event to list all stakes.
 
-> 📝 Note: If you use named arguments in your event (e.g. `event Stake(address indexed staker, uint256 amount)`), you'll need to update `/packages/nextjs/app/stakings/page.tsx` to reference event parameters by their names instead of numeric indices.
+> 📝 Note: If you use named arguments in your event (e.g. `event Stake(address indexed staker, uint256 amount)`), you'll need to update. `/packages/nextjs/app/stakings/page.tsx` to reference event parameters by their names instead of numeric indices.
 
 🌟 The final deliverable is deploying a Dapp that lets users send ether to a contract and stake if the conditions are met, then `yarn vercel` your app to a public webserver. Submit the url on [SpeedRunEthereum.com](https://speedrunethereum.com)!
 
